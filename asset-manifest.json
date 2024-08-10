@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NewsTape/static/css/main.a89b1356.css",
+    "main.js": "/NewsTape/static/js/main.621de71c.js",
+    "static/js/453.773ce130.chunk.js": "/NewsTape/static/js/453.773ce130.chunk.js",
+    "static/media/Skateboarding.gif": "/NewsTape/static/media/Skateboarding.b53f1c752983543a68ff.gif",
+    "index.html": "/NewsTape/index.html",
+    "main.a89b1356.css.map": "/NewsTape/static/css/main.a89b1356.css.map",
+    "main.621de71c.js.map": "/NewsTape/static/js/main.621de71c.js.map",
+    "453.773ce130.chunk.js.map": "/NewsTape/static/js/453.773ce130.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a89b1356.css",
+    "static/js/main.621de71c.js"
+  ]
+}
