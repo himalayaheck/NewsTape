@@ -1,7 +1,15 @@
 // api/news.js
 export default async function handler(req, res) {
+  // --- CORS ---
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
   try {
-    const { page = 1, pageSize = 8, category = "general", country = "us" } = req.query;
+    const { page = "1", pageSize = "8", category = "general", country = "us" } = req.query;
 
     const url = new URL("https://newsapi.org/v2/top-headlines");
     url.searchParams.set("country", country);
@@ -16,7 +24,7 @@ export default async function handler(req, res) {
     const data = await r.json();
     return res.status(r.ok ? 200 : r.status).json(data);
   } catch (e) {
-    console.error(e);
+    console.error("Server error:", e);
     return res.status(500).json({ status: "error", message: "Server error" });
   }
 }
