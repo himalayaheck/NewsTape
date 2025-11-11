@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/NewsTape/static/css/main.a89b1356.css",
-    "main.js": "/NewsTape/static/js/main.c0d45482.js",
+    "main.js": "/NewsTape/static/js/main.6363741a.js",
     "static/js/453.773ce130.chunk.js": "/NewsTape/static/js/453.773ce130.chunk.js",
     "static/media/Skateboarding.gif": "/NewsTape/static/media/Skateboarding.b53f1c752983543a68ff.gif",
     "index.html": "/NewsTape/index.html",
     "main.a89b1356.css.map": "/NewsTape/static/css/main.a89b1356.css.map",
-    "main.c0d45482.js.map": "/NewsTape/static/js/main.c0d45482.js.map",
+    "main.6363741a.js.map": "/NewsTape/static/js/main.6363741a.js.map",
     "453.773ce130.chunk.js.map": "/NewsTape/static/js/453.773ce130.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a89b1356.css",
-    "static/js/main.c0d45482.js"
+    "static/js/main.6363741a.js"
   ]
 }
